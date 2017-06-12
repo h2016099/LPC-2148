@@ -31,7 +31,7 @@ LPC 2148 is configured to I2C mode and external interrupt mode using PINSEL0 reg
 # Project Explanation
 
 * Header LPC214X.h, I2C.H, lcd.h, extint.c, stdio.h, type.h is containing all the register definitions which enables us to use register names instead of Memory location of every SFR.
-* Delay function is implemented to provide delay between data display on the lcd.
+* Delay function is implemented to provide delay between data display on the lcd. 
 * The SW1 is used to raise the external interrupt and in the ISR the count is raised every time.
 * In the main function, first we have read the value that is previously present in EEPROM into a buffer and it is assigned to our count variable so that when power is interrupted latest value of count is read.
 * Each time the count is incremented it is also written into EEPROM using write command.
