@@ -25,7 +25,8 @@ LPC 2148 is configured to I2C mode and external interrupt mode using PINSEL0 reg
 
 # Flow Chart
 
-![image](https://user-images.githubusercontent.com/25156625/27049510-353bde78-4fcd-11e7-88b5-ce5b7211b44d.png)
+![image](https://user-images.githubusercontent.com/25156625/27049786-fb22da9c-4fcd-11e7-83dd-f50d5fc5e850.png)
+
 
 # Project Explanation
 
